@@ -17,7 +17,7 @@ namespace App1
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource Test 222
+            // Set our view from the "main" layout resource Test 222333444
             SetContentView(Resource.Layout.Main);
 
             // Get our button from the layout resource,
