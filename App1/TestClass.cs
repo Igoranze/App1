@@ -14,5 +14,6 @@ namespace App1
 {
 	class TestClass
 	{
+        Console.Writeline("test");
 	}
 }
