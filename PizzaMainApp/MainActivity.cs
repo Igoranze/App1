@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using PizzaMainApp.Json;
 
 namespace PizzaMainApp
 {
@@ -23,8 +24,15 @@ namespace PizzaMainApp
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.MyButton);
+            TextView tv = FindViewById<TextView>(Resource.Id.textAsLabel);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            string url = @"https://hackathon-menu.dominos.cloud/Rest/nl/menus/30544/en";
+
+            button.Click += delegate 
+            {
+                JsonParser jsonParser = new JsonParser(url);
+                tv.Text = jsonParser.getJsonData();
+            };
         }
     }
 }
