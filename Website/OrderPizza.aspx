@@ -67,6 +67,7 @@
                         <h2 class="equal">=</h2>
                     </div>
                      <div class="col-sm-4">
+                          <div class="col-xs-2"><asp:Image ID="Image1" runat="server" src="Images/cola.png" /></div>
                           <h2 class="equal"><asp:Label ID="lblEmotie" runat="server" Text="Label"></asp:Label></h2>
                      </div>
                     </div>

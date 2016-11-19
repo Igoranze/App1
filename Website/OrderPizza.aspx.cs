@@ -12,6 +12,7 @@ public partial class Default2 : System.Web.UI.Page
 {
     private static String emotie;
     private string websiteRootFolder = HttpContext.Current.Server.MapPath("~");
+
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -35,8 +36,8 @@ public partial class Default2 : System.Web.UI.Page
             repProducts.DataBind();
 
         }
-
-        lblEmotie.Text = DoeIets();
+        emotie = DoeIets();
+        lblEmotie.Text = emotie;
 
         Image1.Attributes["src"] = loadImageFromMood();
             
@@ -46,7 +47,7 @@ public partial class Default2 : System.Web.UI.Page
 
     private string loadImageFromMood()
     {
-        string mood = DoeIets();
+        string mood = emotie;
 
         if (mood.Equals("anger"))
         {
@@ -111,9 +112,17 @@ public partial class Default2 : System.Web.UI.Page
 
         }
 
-        Scores scores = new Scores(result);
-        emotie = scores.getHighestSCore();
-        return emotie;
+        try
+        {
+            Scores scores = new Scores(result);
+            emotie = scores.getHighestSCore();
+            return emotie;
+        }
+        catch (Exception e)
+        {
+            return "neutral";
+        }
+       
     }
 
     public byte[] ReadAllBytes(string fileName)
