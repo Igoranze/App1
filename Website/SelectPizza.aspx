@@ -6,20 +6,20 @@
 <head runat="server">
     <title>Page 1</title>
     <link rel="stylesheet" href="css/dominos.css" />
+    <link rel="stylesheet" href="css/CustomCss.css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap --> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    
+
 </head>
 <body>
 <h1>Select Pizza</h1>
     <form id="form1" runat="server">
 
-    <a class="render" href="#">Show me the top 3 pizzas that matches my photo color of today</a><br/>
-    <asp:DropDownList ID="ddlCodes" runat="server" OnSelectedIndexChanged="PopulateRepeater" AutoPostBack="True" OnTextChanged="PopulateRepeater"></asp:DropDownList>
-    <img class="added" alt="ORIGINAL" src="me.jpg" />
-
+    <a href="#" id="top3Button" class="render btn btn-info">Show me the top 3 pizzas that matches my photo color of today</a><br/>
+    <img class="added" width="150" height="150" alt="ORIGINAL" src="Images/persoon.jpg" />
+        </br></br>
     <div class="container">
     
         <asp:Repeater ID="repProducts" runat="server">
@@ -41,11 +41,9 @@
             <div class="span12">
                 <div class="row">
                     <asp:HiddenField ID="hdnCategoryID" runat="server" Value='<%# Bind("PizzaData") %>' />
+                    
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Name")%></span></div>
-                    <div class="col-xs-2">
-                        <div id="caption<%# Container.ItemIndex + 1 %>"></div>
-                        <img src="images/<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" />
-                    </div>
+                    <div class="col-xs-2"><div id="caption<%# Container.ItemIndex + 1 %>"></div><img id="PizzaAfbeelding" src="<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" /></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Description")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"HalfnHalfEnabled")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"ComponentStatus")%></span></div>
