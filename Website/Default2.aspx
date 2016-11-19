@@ -37,7 +37,18 @@
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Status")%></span></div>
                 </div>
                 </div>
+                <drankieTemplate />
+                            <div class="span12">
+                            <div class="row">
+
+                            <div class="col-xs-2"><asp:Label ID="Label12" runat="server" Text='Image' /></div>
+
+                            </div>
+                            </div>
+
+
             </ItemTemplate>
+
 
         </asp:Repeater>
     </div>
