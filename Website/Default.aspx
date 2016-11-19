@@ -26,15 +26,12 @@
 	<img src="4cheese.png" alt="4cheese"  />
 	<img src="extravaganza.png" alt="extravaganza"  />
 	<img src="spinache.png" alt="spinache"  />
-	<img src="veggi.png" alt="veggi"  />
+	<img src="2veggi.png" alt="2veggi"  />
 	<img src="gaucho.png" alt="gaucho"  />
 
 
-    <img src="https://bestellen.dominos.nl/ManagedAssets/NL/product/PBGR/NL_PBGR_all_menu_635.png?v-2072051686" alt="aaa"  />
+    <img src="https://bestellen.dominos.nl/ManagedAssets/NL/product/PBGR/NL_PBGR_all_menu_635.png?v-2072051686" alt="EXTERNAL PHOTO"  />
 
-
-    
-    <img src="veggi.png" alt="bbb"  />
 
 
 

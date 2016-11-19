@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Web.Script.Serialization;
 
@@ -14,40 +13,54 @@ namespace Dominos
             this.url = url;
         }
 
-        public string getJsonData()
+        public List<Product> getJsonData()
         {
-            string result = "";
 
+            List<Product> result = null;
             using (WebClient wc = new WebClient())
             {
                 var json = wc.DownloadString(url);
-
                 JavaScriptSerializer json_serializer = new JavaScriptSerializer();
-
+                List<Product> listOfProducts = new List<Product>();
                 dynamic jsonObject = json_serializer.Deserialize<dynamic>(json);
-                //dynamic jsonObject = jsonObject["Products"];
 
+                //_________
+                // MenuPages
                 dynamic menuPages = jsonObject["MenuPages"];
-                //dynamic abc = json_serializer.Deserialize<dynamic>(menuPages);
+                foreach (var menuPage in menuPages)
+                {
+                    //_________
+                    // SubMenus
+                    var subMenus = menuPage["SubMenus"];
+                    foreach (var submenu in subMenus)
+                    {
+                        var code = submenu["Code"];
+                        if (code ==  "Menu.Pizza.Promo") {
 
-
-                //JSONObject jsonObject = new JSONObject(json);
-                /*
-                String products = jsonObject.GetString("Products");
-                String menuFor = jsonObject.GetString("MenuFor");
-                String countryCode = jsonObject.GetString("CountryCode");
-                String culture = jsonObject.GetString("Culture");
-                String storeNo = jsonObject.GetString("StoreNo");
-                String isDelivery = jsonObject.GetString("IsDelivery");
-                String storeTime = jsonObject.GetString("StoreTime");
-                String syncresponse = jsonObject.GetString("MenuFor");
-                */
-                //JSONObject menuPages = new JSONObject("MenuPages");
-
-                //List<Product> productList = Products.GetProducts(products);
-
+                            //_________
+                            // Products
+                            var products = submenu["Products"];
+                            foreach (var product in products)
+                            {
+                                Product pr = new Product();
+                                pr.Name = product["Name"];
+                                pr.Image = product["Image"];
+                                pr.Description = product["Description"];
+                                pr.HalfnHalfEnabled = product["HalfnHalfEnabled"];
+                                //pr.Price = product["Price"];
+                                pr.Status = product["Status"];
+                                //pr.Legends = product["Legends"];
+                                //pr.LinkedItem = product["LinkedItem"];
+                                pr.ComponentStatus = product["ComponentStatus"];
+                                listOfProducts.Add(pr);
+                            }
+                            result = listOfProducts;
+                        }
+                    }
+                }
             }
             return result;
+
         }
     }
 }
