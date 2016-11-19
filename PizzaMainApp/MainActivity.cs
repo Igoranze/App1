@@ -12,6 +12,7 @@ namespace PizzaMainApp
     public class MainActivity : Activity
     {
         int count = 1;
+        int visited = 0;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -19,6 +20,11 @@ namespace PizzaMainApp
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            if (visited == 0 )
+            {
+
+            }
 
             // Get our button from the layout resource,
             // and attach an event to it
