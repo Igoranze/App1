@@ -22,8 +22,8 @@ public partial class Pages_Master_Default : System.Web.UI.Page
         //List<Product> products = Products.GetProducts(productsJson);
 
         //Populate Repeater        
-        repProducts.DataSource = products;
-        repProducts.DataBind();
+        //repProducts.DataSource = products;
+        //repProducts.DataBind();
 
 
     }

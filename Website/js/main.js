@@ -1,6 +1,7 @@
 $('.render').on('click', function () {
     var sortedDistanceArray = [];
     var pizzas = [];
+    var topX = 3;
     $('img').each(function () {
         console.log(this.alt);
         pizzas.push(getAverageRGB(this));
@@ -9,8 +10,7 @@ $('.render').on('click', function () {
     console.log(pizzas); // returns array with arrays for every image with RGB values & title.
     console.log('sortedDistanceArray:' + sortedDistanceArray);
     var counter = 0;
-
-    for (var i = 0; i < 3; i++) {
+    for (var i = 1; i < topX + 1; i++) {
         counter++;
         // get top three from sorted pizza array
         var index = sortedDistanceArray[i].pizza;
@@ -21,14 +21,12 @@ $('.render').on('click', function () {
         $("#caption" + index).addClass('captionSelected');
         console.log(obj);
         $('img[alt="' + obj.title + '"]').addClass('selectedPizza');
-        //$(obj).addClass('selectedPizza');
         
         if (counter === 1) {
-            //alert($('#hfSelectedPizza').val());
             $('#hfSelectedPizza').val(index);
-            //$('#hfPizzaData' + index).val(JSON.stringify(obj));
-            //alert($('#hfSelectedPizza').val());
         }
+        
+
 
     }
 })
