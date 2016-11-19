@@ -20,6 +20,26 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+#MakeMeAPizza:hover{
+    background-color: #007AAF;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 32px;
+    border-radius: 3px;
+    text-align: -webkit-center;
+    color: white;
+    border: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px black;
+}
  .added{
  background-color: #007AAF;
     font-family: "oswald";
@@ -39,7 +59,7 @@
  }
 
  .render {
-      background-color: #007AAF;
+    background-color: #007AAF;
     font-family: "oswald";
     text-transform: uppercase;
     text-align: left;

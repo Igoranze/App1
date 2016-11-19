@@ -34,3 +34,17 @@
     background-color: #007AAF;
     top: 150px;
 }
+
+.text-big{
+    background-color: #007AAF;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 32px;
+    border-radius: 3px;
+    color: white;
+    border: 0px;
+    position: relative;
+    height: 50px;
+}
