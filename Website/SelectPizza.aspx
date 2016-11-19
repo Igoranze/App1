@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SelectPizza.aspx.cs" Inherits="Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SelectPizza.aspx.cs" ViewStateMode="Enabled" EnableViewState="true" Inherits="Default" %>
 
 <!DOCTYPE html>
 
@@ -26,7 +26,7 @@
 
     <div class="container">
     
-        <asp:Repeater ID="repProducts" runat="server">
+        <asp:Repeater ID="repProducts" ViewStateMode="Enabled" EnableViewState="true" runat="server">
             <FooterTemplate>
             </FooterTemplate>
             <HeaderTemplate>

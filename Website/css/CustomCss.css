@@ -39,6 +39,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px black;
+    cursor: pointer;
 }
  .added{
  background-color: #007AAF;
@@ -92,4 +93,30 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.infoText {
+    top:350px;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: -webkit-center;
+    color: white;
+    border: 0px;
+    position: relative;
+}
+
+.equal {
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 72px;
+    border-radius: 3px;
+    text-align: -webkit-center;
+    color: white;
+    border: 0px;
 }
