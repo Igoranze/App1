@@ -15,11 +15,15 @@
 </head>
 <body>
 <h1>Select Pizza</h1>
+    
     <form id="form1" runat="server">
 
     <a href="#" id="top3Button" class="render btn btn-info">Show me the top 3 pizzas that matches my photo color of today</a><br/>
     <img class="added" width="150" height="150" alt="ORIGINAL" src="Images/persoon.jpg" />
         </br></br>
+
+        <asp:DropDownList ID="ddlCodes" AutoPostBack="true" OnSelectedIndexChanged="PopulateRepeater" runat="server"></asp:DropDownList>
+
     <div class="container">
     
         <asp:Repeater ID="repProducts" runat="server">
@@ -43,7 +47,7 @@
                     <asp:HiddenField ID="hdnCategoryID" runat="server" Value='<%# Bind("PizzaData") %>' />
                     
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Name")%></span></div>
-                    <div class="col-xs-2"><div id="caption<%# Container.ItemIndex + 1 %>"></div><img id="PizzaAfbeelding" src="<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" /></div>
+                    <div class="col-xs-2"><div id="caption<%# Container.ItemIndex + 1 %>"></div><img id="PizzaAfbeelding" src="images/<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" /></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Description")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"HalfnHalfEnabled")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"ComponentStatus")%></span></div>
