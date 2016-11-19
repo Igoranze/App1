@@ -36,6 +36,7 @@ public partial class Pages_Master_Default : System.Web.UI.Page
         //check file was submitted
         if (file != null && file.ContentLength > 0)
         {
+
             byte[] imageArray = readFully(file.InputStream);
 
             string url = "https://api.projectoxford.ai/emotion/v1.0/recognize";

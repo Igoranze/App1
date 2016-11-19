@@ -12,7 +12,6 @@ public partial class _default : System.Web.UI.Page
 {
     private string websiteRootFolder = HttpContext.Current.Server.MapPath("~");
 
-    private static String emotie;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -22,7 +21,7 @@ public partial class _default : System.Web.UI.Page
     protected void btnUploadClick(object sender, EventArgs e)
     {
         HttpPostedFile file = Request.Files["myFile"];
-        
+
         if (file != null && file.ContentLength > 0)
         {
             byte[] imageArray = readFully(file.InputStream);
@@ -30,25 +29,11 @@ public partial class _default : System.Web.UI.Page
             string localFilename = websiteRootFolder + "Images/persoon.jpg";
             file.SaveAs(localFilename);
 
-            string url = "https://api.projectoxford.ai/emotion/v1.0/recognize";
-            string apiKey = "b733deea30274a7faf28982f4829ba9a";
-
-            string result = "";
-            using (var client = new System.Net.WebClient())
-            {
-                client.Headers[System.Net.HttpRequestHeader.ContentType] = "application/octet-stream";
-                client.Headers["Ocp-Apim-Subscription-Key"] = apiKey;
-                var byteArray = client.UploadData(url, imageArray);
-
-                using (var streamReader = new StreamReader(new MemoryStream(byteArray)))
-                    result = streamReader.ReadToEnd();
-
-            }
-
-            Scores scores = new Scores(result);
-            emotie = scores.getHighestSCore();
+        
         }
     }
+
+    
 
     public byte[] readFully(Stream input)
     {
@@ -67,6 +52,6 @@ public partial class _default : System.Web.UI.Page
 
     protected void MakeMeAPizza_Click(object sender, System.EventArgs e)
     {
-        Response.Redirect("SelectPizza.aspx?param=" + emotie);
+        Response.Redirect("SelectPizza.aspx?");
     }
 }
