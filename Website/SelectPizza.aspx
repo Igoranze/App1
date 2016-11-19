@@ -17,7 +17,7 @@
 <h1>Select Pizza</h1>
     <form id="form1" runat="server">
 
-    <button>Show me the top 3 pizzas that matches my photo color of today</button><br/>
+    <a href="#" class="render">Show me the top 3 pizzas that matches my photo color of today</a><br/>
     <img class="added" width="150" height="150" alt="ORIGINAL" src="Images/persoon.jpg" />
 
     <div class="container">
@@ -56,6 +56,8 @@
         
     </div>
         <asp:HiddenField ID="hfSelectedPizza" Value="Jeroen" runat="server" />
+        
+        <asp:HiddenField ID="hfEmotion" runat="server" Value="" />
 
 
 
@@ -65,6 +67,7 @@
         
 
     <asp:Button ID="Button1" PostBackUrl="~/OrderPizza.aspx" runat="server" Text="Bevestig de selectie" />
+    
     </form>
     
     </body>

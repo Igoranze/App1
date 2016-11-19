@@ -39,6 +39,8 @@
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Status")%></span></div>
 
                     <div class="col-xs-2"><asp:Label ID="Label12" runat="server" Text='Op basis van je gesteldheid raden we je dit aan bij de bestelling:' /></div>
+                             <div class="col-xs-2"><asp:Label ID="lblEmotie" runat="server" Text="Label"></asp:Label></div>
+
                     <div class="col-xs-2">
                         <div id="caption<%# Container.ItemIndex + 1 %>"></div>
                         <img src="<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" />
@@ -52,7 +54,6 @@
 
 
             </ItemTemplate>
-
 
         </asp:Repeater>
     </div>
