@@ -35,9 +35,10 @@ public partial class Default2 : System.Web.UI.Page
             repProducts.DataBind();
 
         }
-        Label lblEm = this.FindControl("lblEmotie") as Label;
+        //Label lblEm = this.FindControl("lblEmotie") as Label;
 
-        lblEm.Text = DoeIets();
+        //lblEm.Text = DoeIets();
+        lblEmotie.Text = "Test123";
 
 
     }
