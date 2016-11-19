@@ -1,6 +1,7 @@
 $('.render').on('click', function () {
     var pizzas = [];
     $('img').each(function () {
+        console.log(this.alt);
         pizzas.push(getAverageRGB(this));
     });
 
@@ -14,6 +15,7 @@ $('.render').on('click', function () {
 */
 
 function getAverageRGB(imgEl) {
+    $(imgEl).css('border', '33px solid rgb(' + 0 + ',' + 0 + ',' + 0 + ')');
     var
         pixRate = 10, // only visit every 10 pixels
         defRGB = {r:0, g:0, b:0}, // for non-supporting envs
@@ -52,7 +54,7 @@ function getAverageRGB(imgEl) {
     rgb.g = ~~(rgb.g/count);
     rgb.b = ~~(rgb.b/count);
 
-
+    console.log('r:' + rgb.r + ' g:' + rgb.g + ' b:' + rgb.b );
     $(imgEl).css('border', '33px solid rgb(' + rgb.r.toString() + ',' + rgb.g.toString() + ',' + rgb.b.toString() + ')');
 
     return rgb;
