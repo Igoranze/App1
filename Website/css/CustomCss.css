@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #E21836;
+}
+
+#ContentPlaceHolder1_MakeMeAPizza {
+    background-color: #007AAF;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 32px;
+    border-radius: 3px;
+    text-align: -webkit-center;
+    color: white;
+    border: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

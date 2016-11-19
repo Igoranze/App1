@@ -1,47 +1,26 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/Master/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Pages_Master_Default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+        <form id="form1" runat="server">
+    <div>
+        <asp:Button 
+            ID="MakeMeAPizza" 
+            runat="server" 
+            Text="Make me a Pizza" 
+            OnClick="MakeMeAPizza_Click"
+            Font-Bold="true"
+            Height="150"
+            Width="345"
+            />
+    </div>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Dominos PizzaApp</title>
-    <link rel="stylesheet" href="css/dominos.css" />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap --> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+</form>
 
-</head>
-<body>
-    <form id="form1" runat="server">
+<input type="file" accept="image/*" capture="camera">
 
-    <a class="render" href="#">render</a>
-    
-
-    <img class="added" alt="ORIGINAL" src="me.jpg" />
-	<br/><br/><br/>
-    <img src="peperoni.png" alt="peperoni" />
-	<img src="fungi.png" alt="fungi"  />
-	<img src="chickenkebab.png" alt="chickenkebab"  />
-	<img src="4cheese.png" alt="4cheese"  />
-	<img src="extravaganza.png" alt="extravaganza"  />
-	<img src="spinache.png" alt="spinache"  />
-	<img src="veggi.png" alt="veggi"  />
-	<img src="gaucho.png" alt="gaucho"  />
-
-
-    <img src="https://bestellen.dominos.nl/ManagedAssets/NL/product/PBGR/NL_PBGR_all_menu_635.png?v-2072051686" alt="aaa"  />
-
-
-    
-    <img src="veggi.png" alt="bbb"  />
-
-
-
-
-    <div class="container">
-    
-        <asp:Repeater ID="repProducts" runat="server">
+     <asp:Repeater ID="repProducts" runat="server">
             <FooterTemplate>
             </FooterTemplate>
             <HeaderTemplate>
@@ -71,12 +50,5 @@
 
         </asp:Repeater>
         
-    </div>
+</asp:Content>
 
-    </form>
-
-    	<script src="js/jquery-1.7.1.min.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-</html>
