@@ -10,4 +10,14 @@
     android:layout_height="wrap_content" 
     android:text="@string/Hello"
     />
+
+
+  <Button
+    android:id="@+id/Gevoelens"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Laat je gevoelens spreken"
+    />
+  
+  
 </LinearLayout>
