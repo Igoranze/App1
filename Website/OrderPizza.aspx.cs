@@ -12,35 +12,25 @@ public partial class Default2 : System.Web.UI.Page
 {
     private static String emotie;
     private string websiteRootFolder = HttpContext.Current.Server.MapPath("~");
+
     protected void Page_Load(object sender, EventArgs e)
     {
-
         string selectedPizzaIndex = Request.Form["hfSelectedPizza"];
-
 
         if (!string.IsNullOrEmpty(Request.Form["hfSelectedPizza"]))
         {
             string selectedPizzaString = Request.Form["repProducts$ctl0" + selectedPizzaIndex + "$hdnCategoryID"];
             JavaScriptSerializer json_serializer = new JavaScriptSerializer();
             dynamic jsonObject = json_serializer.Deserialize<dynamic>(selectedPizzaString);
-            //Product selectedProduct = Products.GetProduct(jsonObject);
 
-
-
-    
-    Product product = Products.GetProduct(jsonObject);
+            Product product = Products.GetProduct(jsonObject);
             List<Product> products = new List<Product>();
             products.Add(product);
             repProducts.DataSource = products;
             repProducts.DataBind();
-
         }
-        //Label lblEm = this.FindControl("lblEmotie") as Label;
 
-        //lblEm.Text = DoeIets();
-        lblEmotie.Text = "Test123";
-
-
+        lblEmotie.Text = DoeIets();
     }
 
     public String DoeIets()
@@ -54,9 +44,6 @@ public partial class Default2 : System.Web.UI.Page
         string localFilename = websiteRootFolder + "Images/persoon.jpg";
         byte[] imageArray = ReadAllBytes(localFilename);
 
-
-
-
         string result = "";
         using (var client = new System.Net.WebClient())
         {
@@ -66,11 +53,11 @@ public partial class Default2 : System.Web.UI.Page
 
             using (var streamReader = new StreamReader(new MemoryStream(byteArray)))
                 result = streamReader.ReadToEnd();
-
         }
 
         Scores scores = new Scores(result);
         emotie = scores.getHighestSCore();
+
         return emotie;
     }
 
@@ -82,8 +69,7 @@ public partial class Default2 : System.Web.UI.Page
             buffer = new byte[fs.Length];
             fs.Read(buffer, 0, (int)fs.Length);
         }
+
         return buffer;
     }
-
-
 }

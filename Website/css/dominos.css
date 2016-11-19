@@ -30,9 +30,44 @@
     width: 150px;
 }
 
-#top3Button {
+#top3Button, #placeOrder {
     background-color: #007AAF;
     top: 150px;
+}
+
+##top3Button:hover {
+    background-color: #007AAF;
+    top: 150px;
+    box-shadow: 10px 10px 5px black;
+    cursor: pointer;
+}
+
+#placeOrder {
+    width: 100%;
+    padding-bottom:20px;
+    background-color: #007AAF;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 31px;
+    color: white;
+    border: 0px;
+}
+
+#placeOrder:hover {
+    width: 100%;
+    padding-bottom:20px;
+    background-color: #007AAF;
+    font-family: "oswald";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 31px;
+    color: white;
+    border: 0px;
+    box-shadow: 10px 10px 5px black;
+    cursor: pointer;
 }
 
 .text-big{
@@ -47,4 +82,9 @@
     border: 0px;
     position: relative;
     height: 50px;
+}
+
+.container2 {
+    padding-top: 180px;
+
 }
