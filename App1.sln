@@ -5,7 +5,30 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{4F534F15-1244-4EEF-A9BA-EB0FDB4A026A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pizzaapp", "lib\pizzaapp\pizzaapp.csproj", "{9E4ADB44-E105-4AEC-BEEF-9E624ABF3EED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominos", "lib\pizzaapp\Dominos.csproj", "{9E4ADB44-E105-4AEC-BEEF-9E624ABF3EED}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{502BCEAD-14E5-4DE5-9C1F-7789C40DAE73}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{9e4adb44-e105-4aec-beef-9e624abf3eed}|pizzaapp.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61895"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61895\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61895"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61895\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61895"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +46,10 @@ Global
 		{9E4ADB44-E105-4AEC-BEEF-9E624ABF3EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E4ADB44-E105-4AEC-BEEF-9E624ABF3EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E4ADB44-E105-4AEC-BEEF-9E624ABF3EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502BCEAD-14E5-4DE5-9C1F-7789C40DAE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502BCEAD-14E5-4DE5-9C1F-7789C40DAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502BCEAD-14E5-4DE5-9C1F-7789C40DAE73}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{502BCEAD-14E5-4DE5-9C1F-7789C40DAE73}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

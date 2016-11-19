@@ -1,0 +1,1536 @@
+﻿{
+  "MenuFor": "2016-11-18T21:51:37.3880686",
+  "CountryCode": "nl",
+  "Culture": "en",
+  "StoreNo": 30540,
+  "IsDelivery": false,
+  "StoreTime": "2016-11-18T21:51:37.3880686",
+  "MenuPages": [
+    {
+      "Code": "Menu.Pizza",
+      "Name": "Pizzas",
+      "Logo": {
+        "AltText": "Pizzas",
+        "Url": "/ManagedAssets/OLO/eStore/All/ProductGroup/NL/Menu_Pizza/Menu_Pizza_ProductImage_MainMenu_en_Default_20130919.png"
+      },
+      "SubMenus": [
+        {
+          "Code": "Menu.Pizza.Promo",
+          "Name": "Nieuw & populair",
+          "Products": [
+            {
+              "Name": "Pizza Cheeseburger",
+              "Description": "Tomatosauce, mozzarella, red union, fresh tomato, beef, pickles & burgersauce",
+              "Image": "/ManagedAssets/NL/product/PBGR/NL_PBGR_all_menu_635.png?v-2072051686",
+              "Price": {
+                "Pickup": "€ 4,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PBGR"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pizza BBQ Chickenburger",
+              "Description": "Smokey BBQ sauce, mozzarella, red union, fresh tomato, grilled chicken, bacon & baked unions.",
+              "Image": "/ManagedAssets/NL/product/PBCB/NL_PBCB_all_menu_1121.png?v-905247907",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 8,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PBCB"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pizza Spicy Burger",
+              "Description": "Tomato sauce, mozzarella, peperoni, fresh tomato, beef, peppers, emmenthal & a Dallas sauce swirl",
+              "Image": "/ManagedAssets/NL/product/PSYB/NL_PSYB_all_menu_1121.png?v-699475366",
+              "Price": {
+                "Pickup": "€ 6,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PSYB"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                },
+                {
+                  "Code": "Spicy",
+                  "Image": {
+                    "AltText": "Spicy",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "This product is spicy."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pizza Salami",
+              "Description": "Tomato sauce, mozzarella & salami",
+              "Image": "/ManagedAssets/NL/product/PSAL/NL_PSAL_all_menu_1121.png?v275609867",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PSAL"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Half! Half!",
+              "Description": "Can not decide? Enjoy two different tastes on the same pizza!",
+              "Image": "/ManagedAssets/NL/product/PDES.HALF/NL_PDES.HALF_all_menu_558.png?v-1529680515",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PDES.HALF"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Customise",
+              "Description": "Build from scratch Feeling inventive? Start with our original mozzarella cheese and tomato pizza or mozzarella cheese and creme fraiche pizza as a base and build your own, with a maximum of 11 ingredients. Any combination is possible",
+              "Image": "/ManagedAssets/NL/product/PDES/NL_PDES_all_menu_558.png?v-353580528",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PDES"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pizza.ChefsBest",
+          "Name": "Chef's Best Pizza's",
+          "Products": [
+            {
+              "Name": "So Majestic",
+              "Description": "Crème fraîche, spinach, mozzarella, red onion, dried fig, goat cheese, bacon, pine nuts & a swirl of honey",
+              "Image": "/ManagedAssets/NL/product/PMAJ/NL_PMAJ_all_menu_531.png?v1944464830",
+              "Price": {
+                "Pickup": "€ 10,95",
+                "Delivered": "€ 12,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PMAJ"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "So Gaucho",
+              "Description": "BBQ Saus, mozzarella, red onion, fresh tomato, pepperoni, pulled beef & and a swirl of coriander & chipotle",
+              "Image": "/ManagedAssets/NL/product/PGAU/NL_PGAU_en_menu_531.png?v706853517",
+              "Price": {
+                "Pickup": "€ 10,95",
+                "Delivered": "€ 12,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PGAU"
+              },
+              "Legends": [
+                {
+                  "Code": "Spicy",
+                  "Image": {
+                    "AltText": "Spicy",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "This product is spicy."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "So Asian",
+              "Description": "Crème fraîche, spinach, mozzarella, red onion, pepper mix, mango, chicken & a Vietnamese drizzle",
+              "Image": "/ManagedAssets/NL/product/PASI/NL_PASI_all_menu_840.png?v450230717",
+              "Price": {
+                "Pickup": "€ 10,95",
+                "Delivered": "€ 12,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PASI"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pizza.TopTaste",
+          "Name": "Top Taste Pizzas",
+          "Products": [
+            {
+              "Name": "BBQ Mixed Grill",
+              "Description": "BBQ sauce, mozzarella, red onion, peppers, ground beef, bacon, ham and grilled chicken",
+              "Image": "/ManagedAssets/NL/product/PBMG/NL_PBMG_all_menu_558.png?v-2131176495",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PBMG"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chicken Kebab",
+              "Description": "Tomato sauce, mozzarella, red onion, chicken kebab and a swirl of garlic sauce",
+              "Image": "/ManagedAssets/NL/product/PKEB/NL_PKEB_en_menu_558.png?v-501426053",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PKEB"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Extravaganzza",
+              "Description": "Tomato sauce, mozzarella, red onion, peppers, pepperoni, ham, ground beef, mushrooms, olives & extra mozzarella",
+              "Image": "/ManagedAssets/NL/product/PEXT/NL_PEXT_all_menu_558.png?v2120154056",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PEXT"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Four Cheese",
+              "Description": "Crème fraîch, mozzarella, goatcheese, emmental & gorgonzola",
+              "Image": "/ManagedAssets/NL/product/P4CH/NL_P4CH_all_menu_531.png?v1626769172",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "P4CH"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Shawarma",
+              "Description": "Tomato sauce, mozzarella, shawarma & garlic sauce",
+              "Image": "/ManagedAssets/NL/product/PSHO/NL_PSHO_all_menu_558.png?v-2059034934",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PSHO"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Supreme",
+              "Description": "BBQ sauce, mozzarella, kebabs, ground beef, ham & bacon",
+              "Image": "/ManagedAssets/NL/product/PSUP/NL_PSUP_all_menu_531.png?v-852461938",
+              "Price": {
+                "Pickup": "€ 8,95",
+                "Delivered": "€ 10,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PSUP"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pizza.Favourite",
+          "Name": "Favourite Pizzas",
+          "Products": [
+            {
+              "Name": "Americana",
+              "Description": "Tomato sauce, mozzarella, pepperoni, ham & ground beef",
+              "Image": "/ManagedAssets/NL/product/PAME/NL_PAME_all_menu_558.png?v2029231272",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PAME"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chicken Supreme",
+              "Description": "Tomato sauce, mozzarella, grilled chicken, red onion, paprika, fresh tomato & oregano",
+              "Image": "/ManagedAssets/NL/product/PCSU/NL_PCSU_all_menu_558.png?v-155444641",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PCSU"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Creamy Bacon",
+              "Description": "Crème fraîche, mozzarella, bacon, ham, mushrooms, red onion and oregano",
+              "Image": "/ManagedAssets/NL/product/PCRB/NL_PCRB_all_menu_558.png?v532464795",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PCRB"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Deluxe",
+              "Description": "Tomato sauce, mozzarella, red onion, peppers, pepperoni, bacon strips, mushrooms & ground beef",
+              "Image": "/ManagedAssets/NL/product/PDLX/NL_PDLX_all_menu_558.png?v1761238790",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PDLX"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Hawaii",
+              "Description": "Tomato sauce, mozzarella, ham, pineapple & extra cheese",
+              "Image": "/ManagedAssets/NL/product/PHAW/NL_PHAW_all_menu_558.png?v810150646",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PHAW"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Hot & Spicy",
+              "Description": "Tomato sauce, mozzarella, red onion, paprika, pepperoni & red peppers",
+              "Image": "/ManagedAssets/NL/product/PHSY/NL_PHSY_en_menu_558.png?v1115460462",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PHSY"
+              },
+              "Legends": [
+                {
+                  "Code": "Spicy",
+                  "Image": {
+                    "AltText": "Spicy",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "This product is spicy."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Tonno",
+              "Description": "Tomato sauce, mozzarella, tuna & red onion",
+              "Image": "/ManagedAssets/NL/product/PTON/NL_PTON_all_menu_558.png?v-1800736630",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PTON"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Veggi",
+              "Description": "Tomato sauce, mozzarella, fresh spinach, red onion, paprika, mushrooms, olives and fresh tomato",
+              "Image": "/ManagedAssets/NL/product/PVEG/NL_PVEG_all_menu_558.png?v-1515414003",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PVEG"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pizza Quattro Gusto",
+              "Description": "Tomato sauce, Mozzarella, 1/4 Pepperoni, 1/4 grilled chicken, red union & peppers, 1/4 chicken kebab & red union & 1/4 Hawaii",
+              "Image": "/ManagedAssets/NL/product/PQGU/NL_PQGU_all_menu_959.png?v-885582626",
+              "Price": {
+                "Pickup": "€ 7,95",
+                "Delivered": "€ 9,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PQGU"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pizza.Traditional",
+          "Name": "Traditional Pizzas",
+          "Products": [
+            {
+              "Name": "Funghi",
+              "Description": "Tomato sauce, mozzarella, mushrooms & oregano",
+              "Image": "/ManagedAssets/NL/product/PFUN/NL_PFUN_all_menu_558.png?v763225283",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PFUN"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Margaritha",
+              "Description": "Tomato sauce, double mozzarella & oregano",
+              "Image": "/ManagedAssets/NL/product/PMAR/NL_PMAR_all_menu_558.png?v1426612120",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PMAR"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Perfect Pepperoni",
+              "Description": "Tomato sauce, mozzarella and pepperoni",
+              "Image": "/ManagedAssets/NL/product/PPPE/NL_PPPE_en_menu_558.png?v1699558648",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PPPE"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pizza Salami",
+              "Description": "Tomato sauce, mozzarella & salami",
+              "Image": "/ManagedAssets/NL/product/PSAL/NL_PSAL_all_menu_1121.png?v275609867",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PSAL"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                }
+              ],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pizza.Designa",
+          "Name": "Customise",
+          "Description": "Create your own pizza. Choose from the following ingredients.",
+          "Products": [
+            {
+              "Name": "Customise",
+              "Description": "Build from scratch Feeling inventive? Start with our original mozzarella cheese and tomato pizza or mozzarella cheese and creme fraiche pizza as a base and build your own, with a maximum of 11 ingredients. Any combination is possible",
+              "Image": "/ManagedAssets/NL/product/PDES/NL_PDES_all_menu_558.png?v-353580528",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PDES"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Half! Half!",
+              "Description": "Can not decide? Enjoy two different tastes on the same pizza!",
+              "Image": "/ManagedAssets/NL/product/PDES.HALF/NL_PDES.HALF_all_menu_558.png?v-1529680515",
+              "Price": {
+                "Pickup": "€ 5,95",
+                "Delivered": "€ 7,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "PDES.HALF"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        }
+      ],
+      "Legends": [
+        {
+          "Code": "New",
+          "Image": {
+            "AltText": "NEW",
+            "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+          },
+          "Text": "NEW"
+        },
+        {
+          "Code": "Spicy",
+          "Image": {
+            "AltText": "Spicy",
+            "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+          },
+          "Text": "This product is spicy."
+        },
+        {
+          "Code": "Vegetarian",
+          "Image": {
+            "AltText": "Vegetarian",
+            "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+          },
+          "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+        }
+      ],
+      "Disclaimers": [],
+      "Status": "available"
+    },
+    {
+      "Code": "Menu.Pasta",
+      "Name": "Pastas, Salads & Specials",
+      "Description": "",
+      "Logo": {
+        "AltText": "Pastas, Salads & Specials",
+        "Url": "/ManagedAssets/OLO/iPad/all/MenuPage/NL/Menu.Pasta/Menu.Pasta_ProductImage_MainMenu_en_Default_20131018_030954.png"
+      },
+      "SubMenus": [
+        {
+          "Code": "Menu.Pasta.Pasta",
+          "Name": "Pastas & Salads",
+          "Description": "",
+          "Products": [
+            {
+              "Name": "Pasta Verde",
+              "Description": "Pasta with pesto, spinach, peppers, fresh tomatoes, chicken & emmental cheese",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/EPVER/EPVERProductImageSmallENDefault19000101_093356.png",
+              "Price": {
+                "Pickup": "€ 4,95",
+                "Delivered": "€ 6,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EPVER"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pasta Bianca",
+              "Description": "Pasta with alfredo sauce, mushrooms, ham & emmental cheese",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/EPBIA/EPBIAProductImageSmallENDefault19000101_093906.png",
+              "Price": {
+                "Pickup": "€ 4,95",
+                "Delivered": "€ 6,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EPBIA"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Pasta Rossa",
+              "Description": "Pasta with tomato sauce, mushrooms, ground beef & emmental cheese",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/EPROS/EPROSProductImageSmallENDefault19000101_094854.png",
+              "Price": {
+                "Pickup": "€ 4,95",
+                "Delivered": "€ 6,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EPROS"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Salad",
+              "Description": "Salad with cherry tomatoes, croutons, italian cheese & a balsamico salad dressing",
+              "Image": "/ManagedAssets/NL/product/EFRESH/NL_EFRESH_all_menu_840.png?v2104133777",
+              "Price": {
+                "Pickup": "€ 2,50",
+                "Delivered": "€ 2,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EFRESH"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Pasta.Salad",
+          "Name": "Specials",
+          "Products": [
+            {
+              "Name": "Chicken Ribs",
+              "Description": "6 tender chicken ribs, sauce included.",
+              "Image": "/ManagedAssets/NL/product/EOCRI/NL_EOCRI_all_menu_1121.png?v-652767720",
+              "Price": {
+                "Pickup": "€ 3,95",
+                "Delivered": "€ 3,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EOCRI"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Popcorn Chicken",
+              "Description": "Portion mini chicken snacks with a light spicy bite, including 1 sauce",
+              "Image": "/ManagedAssets/NL/product/EPOPC/NL_EPOPC_all_menu_840.png?v-1673015094",
+              "Price": {
+                "Pickup": "€ 3,95",
+                "Delivered": "€ 3,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EPOPC"
+              },
+              "Legends": [
+                {
+                  "Code": "Spicy",
+                  "Image": {
+                    "AltText": "Spicy",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "This product is spicy."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Buffalo Wings",
+              "Description": "8 Marinated Chicken Knuckles. Choose your sauce (included)",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/EBUFFO/EBUFFO_ProductImage_Small_en_Default_20140305_095718.png",
+              "Price": {
+                "Pickup": "€ 4,50",
+                "Delivered": "€ 4,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EBUFFO"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Kick'n Chicken",
+              "Description": "8 Spicy chicken pieces. Choose your sauce (included)",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ECHICK/ECHICK_ProductImage_Small_en_Default_20140727_121755.png",
+              "Price": {
+                "Pickup": "€ 4,50",
+                "Delivered": "€ 4,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ECHICK"
+              },
+              "Legends": [
+                {
+                  "Code": "Spicy",
+                  "Image": {
+                    "AltText": "Spicy",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "This product is spicy."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chicken Strippers",
+              "Description": "8 Tender chicken pieces in a crispy jacket. Choose your sauce (included)",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ESTRIP/ESTRIP_ProductImage_Small_en_Default_20140727_122740.png",
+              "Price": {
+                "Pickup": "€ 4,50",
+                "Delivered": "€ 4,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ESTRIP"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chicken Combobox",
+              "Description": "4 Buffalo Wings, 4 Chicken Strippers & 4 Kick'n Chicken. Choose your sauce...",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ECBOX/ECBOX_ProductImage_Small_en_Default_20140727_124710.png",
+              "Price": {
+                "Pickup": "€ 6,50",
+                "Delivered": "€ 6,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ECBOX"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Potato Wedges",
+              "Description": "Freshly baked potato wedges. Choose your sauce (included)",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/EPOTAT/EPOTAT_ProductImage_Small_en_Default_20140727_122624.png",
+              "Price": {
+                "Pickup": "€ 3,00",
+                "Delivered": "€ 3,00"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EPOTAT"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Herb Baguette",
+              "Description": "Freshly baked baguette filled with herb butter",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ESBKB/ESBKB_ProductImage_Small_en_Default_20130919.png",
+              "Price": {
+                "Pickup": "€ 2,00",
+                "Delivered": "€ 2,00"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ESBKB"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Cheese Bites",
+              "Description": "Freshly baked dough balls with Emmental cheese.",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ECHBIT/ECHBIT_ProductImage_Small_en_Default_20130919.png",
+              "Price": {
+                "Pickup": "€ 1,00",
+                "Delivered": "€ 1,00"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ECHBIT"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Cheesy Bread",
+              "Description": "Freshly baked cheese sandwich",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/ECHBRD/ECHBRD_ProductImage_Small_en_Default_20130919.png",
+              "Price": {
+                "Pickup": "€ 3,50",
+                "Delivered": "€ 3,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ECHBRD"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Sauces",
+              "Description": "Additional sauces for when you order",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/V.SAUCE/V.SAUCE_ProductImage_Small_en_Default_20140727_123347.png",
+              "Price": {},
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "variety",
+                "ItemCode": "Variety.Sauce"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        }
+      ],
+      "Legends": [
+        {
+          "Code": "Vegetarian",
+          "Image": {
+            "AltText": "Vegetarian",
+            "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+          },
+          "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+        },
+        {
+          "Code": "New",
+          "Image": {
+            "AltText": "NEW",
+            "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+          },
+          "Text": "NEW"
+        },
+        {
+          "Code": "Spicy",
+          "Image": {
+            "AltText": "Spicy",
+            "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Spicy/LegendImage_Spicy_en_Default_20130919.png?v=1"
+          },
+          "Text": "This product is spicy."
+        }
+      ],
+      "Disclaimers": [],
+      "Status": "available"
+    },
+    {
+      "Code": "Menu.Drink",
+      "Name": "Desserts & Drinks",
+      "Description": "",
+      "Logo": {
+        "AltText": "Desserts & Drinks",
+        "Url": "/ManagedAssets/OLO/eStore/all/MenuPage/NL/Menu.Drink/Menu.Drink_ProductImage_MainMenu_nl_Default_20131019_100137.png"
+      },
+      "SubMenus": [
+        {
+          "Code": "Menu.Drink.Desserts",
+          "Name": "Desserts",
+          "Description": "",
+          "Products": [
+            {
+              "Name": "Choco Bread",
+              "Description": "A sweet bread as breakfast? order the Choco Bread with chocolate sauce!",
+              "Image": "/ManagedAssets/NL/product/ECHOCO/NL_ECHOCO_all_menu_1121.png?v760601287",
+              "Price": {
+                "Pickup": "€ 2,95",
+                "Delivered": "€ 2,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "ECHOCO"
+              },
+              "Legends": [
+                {
+                  "Code": "New",
+                  "Image": {
+                    "AltText": "NEW",
+                    "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+                  },
+                  "Text": "NEW"
+                },
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chocolat Lavacake",
+              "Description": "Delicious Lavacake stuffed with chocolate!",
+              "Image": "/ManagedAssets/NL/product/EDLVA/NL_EDLVA_all_menu_733.png?v2026143477",
+              "Price": {
+                "Pickup": "€ 2,50",
+                "Delivered": "€ 2,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EDLVA"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Chocolate Chip Cookie",
+              "Description": "An american Chocolate Chip Cookie with delicious chocolate!",
+              "Image": "/ManagedAssets/NL/product/EDCCC/NL_EDCCC_all_menu_635.png?v-1411218391",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EDCCC"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Mini Beignets Chocolate",
+              "Description": "4 Freshly baked Mini Beignets filled with creamy chocolate",
+              "Image": "/ManagedAssets/NL/product/EDBH4/NL_EDBH4_all_menu_531.png?v629031492",
+              "Price": {
+                "Pickup": "€ 2,95",
+                "Delivered": "€ 2,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "EDBH4"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Hot Choco Cakes",
+              "Description": "4 Freshly baked square chocolate cupcakes with soft filling sugar.",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/HotChocoCakes/HotChocoCakesProductImageSmallENDefault20140806_123810.png",
+              "Price": {
+                "Pickup": "€ 2,00",
+                "Delivered": "€ 2,00"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "SCHOCO"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Dutch Pancakes",
+              "Description": "Pancakes with powdered sugar & butter",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/DutchPancakes/DutchPancakesProductImageSmallENDefault20140806_110537.png",
+              "Price": {
+                "Pickup": "€ 2,00",
+                "Delivered": "€ 2,00"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "SPOFF"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Cinnastix",
+              "Description": "Take baking cinnamon roll, including sweet vanilla icing dip.",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/Cinnastix/CinnastixProductImageSmallENDefault20140806_104501.png",
+              "Price": {
+                "Pickup": "€ 3,50",
+                "Delivered": "€ 3,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "SCINNA"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "Sweet Icing Sauce",
+              "Description": "Sweet vanille icing dip sauce. 50 ml",
+              "Image": "/ManagedAssets/OLO/eStore/All/Product/NL/SWIS/SWIS_ProductImage_Small_en_Default_20130919.png",
+              "Price": {
+                "Pickup": "€ 0,50",
+                "Delivered": "€ 0,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "SWIS"
+              },
+              "Legends": [
+                {
+                  "Code": "Vegetarian",
+                  "Image": {
+                    "AltText": "Vegetarian",
+                    "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+                  },
+                  "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+                }
+              ],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "B & J Ice Cream 500 ml",
+              "Image": "/ManagedAssets/NL/variety/Variety.IceCream500ML/NL_Variety.IceCream500ML_all_menu_517.png?v-646976901",
+              "Price": {},
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "variety",
+                "ItemCode": "Variety.IceCream500ML"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "B & J Ice Cream 150 ml",
+              "Image": "/ManagedAssets/NL/variety/Variety.IceCream150ML/NL_Variety.IceCream150ML_all_menu_517.png?v-1204565345",
+              "Price": {},
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "variety",
+                "ItemCode": "Variety.IceCream150ML"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        },
+        {
+          "Code": "Menu.Drink.Products",
+          "Name": "Drinks",
+          "Products": [
+            {
+              "Name": "0.25 liter Red Bull Regular",
+              "Description": "0.25 liter Red Bull Regular",
+              "Image": "/ManagedAssets/OLO/eStore/all/Product/NL/D02RBR/D02RBR_ProductImage_Small_en_Default_20140213_065501.png",
+              "Price": {
+                "Pickup": "€ 2,25",
+                "Delivered": "€ 2,25"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D02RBR"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.5 liter Chaudfontaine",
+              "Description": "0.5 liter Chaudfontaine",
+              "Image": "/ManagedAssets/NL/product/D05EAR/NL_D05EAR_all_menu_664.png?v-1578674671",
+              "Price": {
+                "Pickup": "€ 1,50",
+                "Delivered": "€ 1,50"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D05EAR"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Amstel Radler 0.0%",
+              "Description": "0.33 liter Amstel Radler 0.0%",
+              "Image": "/ManagedAssets/NL/product/D03AMR/NL_D03AMR_all_menu_1101.png?v-190585652",
+              "Price": {
+                "Pickup": "€ 1,95",
+                "Delivered": "€ 1,95"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03AMR"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Coca Cola",
+              "Description": "0.33 liter Coca Cola",
+              "Image": "/ManagedAssets/NL/product/D03COK/NL_D03COK_all_menu_664.png?v574898727",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03COK"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Coca-Cola Light",
+              "Description": "0.33 liter Coca-Cola Light",
+              "Image": "/ManagedAssets/NL/product/D03LIG/NL_D03LIG_all_menu_664.png?v970512818",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03LIG"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Coca-Cola Zero",
+              "Description": "0.33 liter Coca-Cola Zero",
+              "Image": "/ManagedAssets/NL/product/D03COZ/NL_D03COZ_all_menu_664.png?v-1150652369",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03COZ"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Fanta",
+              "Description": "0.33 liter Fanta",
+              "Image": "/ManagedAssets/NL/product/D03FAN/NL_D03FAN_all_menu_664.png?v-2060302250",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03FAN"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 cl Nestea Sparkling",
+              "Description": "0.33 cl Nestea Sparkling",
+              "Image": "/ManagedAssets/NL/product/D03NSP/NL_D03NSP_all_menu_1170.png?v1669694803",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03NSP"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "0.33 liter Sprite",
+              "Description": "0.33 liter Sprite",
+              "Image": "/ManagedAssets/NL/product/D03SPR/NL_D03SPR_all_menu_664.png?v-1791892944",
+              "Price": {
+                "Pickup": "€ 1,75",
+                "Delivered": "€ 1,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D03SPR"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            },
+            {
+              "Name": "1.5 liter Coca-Cola",
+              "Description": "1.5 liter Coca-Cola",
+              "Image": "/ManagedAssets/NL/product/D15COK/NL_D15COK_all_menu_664.png?v-1947724163",
+              "Price": {
+                "Pickup": "€ 3,75",
+                "Delivered": "€ 3,75"
+              },
+              "Status": "available",
+              "ComponentStatus": "available",
+              "LinkedItem": {
+                "ItemType": "product",
+                "ItemCode": "D15COK"
+              },
+              "Legends": [],
+              "HalfnHalfEnabled": false
+            }
+          ],
+          "SubMenus": [],
+          "Status": "available"
+        }
+      ],
+      "Legends": [
+        {
+          "Code": "New",
+          "Image": {
+            "AltText": "NEW",
+            "Url": "/Assets/OLO/eStore/Legends/AU/NewProduct.png"
+          },
+          "Text": "NEW"
+        },
+        {
+          "Code": "Vegetarian",
+          "Image": {
+            "AltText": "Vegetarian",
+            "Url": "/ManagedAssets/OLO/eStore/All/Disclaimer/NL/Vegetarian/LegendImage_Vegetarian_en_Default_20130919.png?v=1"
+          },
+          "Text": "Whilst Domino's takes due care, this product may contain traces of meat."
+        }
+      ],
+      "Disclaimers": [],
+      "Status": "available"
+    }
+  ]
+}
