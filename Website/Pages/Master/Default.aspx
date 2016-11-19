@@ -3,7 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <form id="form1" runat="server">
+
+<form id="form1" runat="server" enctype="multipart/form-data">
     <div>
         <asp:Button 
             ID="MakeMeAPizza" 
@@ -16,9 +17,11 @@
             />
     </div>
 
+ <input type="file" id="myFile" name="myFile" />
+ <asp:Button runat="server" ID="btnUpload" OnClick="btnUploadClick" Text="Upload" />
 </form>
 
-<input type="file" accept="image/*" capture="camera">
+
 
      <asp:Repeater ID="repProducts" runat="server">
             <FooterTemplate>

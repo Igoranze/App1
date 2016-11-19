@@ -16,16 +16,28 @@ public partial class Pages_Master_Default : System.Web.UI.Page
 
         //Dominos
         JsonParser aaa = new JsonParser("https://hackathon-menu.dominos.cloud/Rest/nl/menus/30544/en");
-        string bbb = aaa.getJsonData();
+        List<Product> products = aaa.getJsonData();
         //Dominos
-        List<Product> products = Products.GetProducts(productsJson);
+        //List<Product> products = Products.GetProducts(productsJson);
 
         //Populate Repeater        
         repProducts.DataSource = products;
         repProducts.DataBind();
+
+
     }
 
+    protected void btnUploadClick(object sender, EventArgs e)
+    {
+        HttpPostedFile file = Request.Files["myFile"];
 
+        //check file was submitted
+        if (file != null && file.ContentLength > 0)
+        {
+            string fname = Path.GetFileName(file.FileName);
+            file.SaveAs(Server.MapPath(Path.Combine("~/App_Data/", fname)));
+        }
+    }
 
     protected void MakeMeAPizza_Click(object sender, System.EventArgs e)
     {
