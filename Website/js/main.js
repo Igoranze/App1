@@ -1,10 +1,13 @@
-var pizzas = [];
+$('.render').on('click', function () {
+    var pizzas = [];
+    $('img').each(function () {
+        pizzas.push(getAverageRGB(this));
+    });
 
-$('img').each(function() {
-    pizzas.push(getAverageRGB(this));
-});
+    console.log(pizzas); // returns array with arrays for every image with RGB values & title.
+})
 
-console.log(pizzas); // returns array with arrays for every image with RGB values & title.
+
 
 /*
 * Logic which compares the me image to all others should be here
@@ -48,6 +51,7 @@ function getAverageRGB(imgEl) {
     rgb.r = ~~(rgb.r/count);
     rgb.g = ~~(rgb.g/count);
     rgb.b = ~~(rgb.b/count);
+
 
     $(imgEl).css('border', '33px solid rgb(' + rgb.r.toString() + ',' + rgb.g.toString() + ',' + rgb.b.toString() + ')');
 
