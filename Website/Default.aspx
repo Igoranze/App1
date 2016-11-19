@@ -15,27 +15,8 @@
 <body>
     <form id="form1" runat="server">
 
-    <a class="render" href="#">render</a>
-    
-
-
-    	<img class="added" alt="ORIGINAL" src="me.jpg" />
-	<br/><br/><br/>
-    <img src="peperoni.png" alt="peperoni" />
-	<img src="fungi.png" alt="fungi"  />
-	<img src="chickenkebab.png" alt="chickenkebab"  />
-	<img src="4cheese.png" alt="4cheese"  />
-	<img src="extravaganza.png" alt="extravaganza"  />
-	<img src="spinache.png" alt="spinache"  />
-	<img src="2veggi.png" alt="2veggi"  />
-	<img src="gaucho.png" alt="gaucho"  />
-
-
-    <img src="https://bestellen.dominos.nl/ManagedAssets/NL/product/PBGR/NL_PBGR_all_menu_635.png?v-2072051686" alt="EXTERNAL PHOTO"  />
-
-
-
-
+    <a class="render" href="#">Show me the top 3 pizzas that matches my photo color of today</a><br/>
+    <img class="added" alt="ORIGINAL" src="me.jpg" />
 
     <div class="container">
     
@@ -58,7 +39,7 @@
             <div class="span12">
                 <div class="row">
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Name")%></span></div>
-                    <div class="col-xs-2"><img src="https://bestellen.dominos.nl/<%# DataBinder.Eval(Container.DataItem,"Image")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" /></div>
+                    <div class="col-xs-2"><img src="<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" /></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"Description")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"HalfnHalfEnabled")%></span></div>
                     <div class="col-xs-2"><span><%# DataBinder.Eval(Container.DataItem,"ComponentStatus")%></span></div>
@@ -73,7 +54,7 @@
 
     </form>
 
-    	<script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>

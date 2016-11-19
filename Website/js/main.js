@@ -4,7 +4,6 @@ $('.render').on('click', function () {
         console.log(this.alt);
         pizzas.push(getAverageRGB(this));
     });
-
     console.log(pizzas); // returns array with arrays for every image with RGB values & title.
 })
 
@@ -31,9 +30,12 @@ function getAverageRGB(imgEl) {
         return defRGB;
     }
 
+    imgEl.crossorigin = "Anonymous";
+
     height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
     width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
     
+
     context.drawImage(imgEl, 0, 0);
 
     try {
