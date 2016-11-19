@@ -43,6 +43,10 @@ namespace Dominos
                             //_________
                             // Products
                             var products = submenu["Products"];
+
+
+                            //Dominos.Products.GetProducts(products);
+
                             foreach (var product in products)
                             {
                                 Product pr = new Product();
@@ -63,6 +67,10 @@ namespace Dominos
                                 //pr.Legends = product["Legends"];
                                 //pr.LinkedItem = product["LinkedItem"];
                                 pr.ComponentStatus = product["ComponentStatus"];
+
+                                string productData = new JavaScriptSerializer().Serialize(product);
+                                pr.PizzaData = productData;
+
                                 listOfProducts.Add(pr);
                             }
                             result = listOfProducts;

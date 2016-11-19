@@ -21,7 +21,14 @@ $('.render').on('click', function () {
         console.log(obj);
         $('img[alt="' + obj.title + '"]').addClass('selectedPizza');
         //$(obj).addClass('selectedPizza');
-        $('hfSelectedPizza').val(JSON.stringify(obj));
+        
+        if (counter === 1) {
+            //alert($('#hfSelectedPizza').val());
+            $('#hfSelectedPizza').val(index);
+            //$('#hfPizzaData' + index).val(JSON.stringify(obj));
+            //alert($('#hfSelectedPizza').val());
+        }
+        
 
 
     }
@@ -77,8 +84,6 @@ function getAverageRGB(imgEl) {
         return defRGB;
     }
 
-    imgEl.crossorigin = "Anonymous";
-
     height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
     width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
     
@@ -105,6 +110,8 @@ function getAverageRGB(imgEl) {
     rgb.b = ~~(rgb.b/count);
     console.log('r:' + rgb.r + ' g:' + rgb.g + ' b:' + rgb.b );
     $(imgEl).css('border', '33px solid rgb(' + rgb.r.toString() + ',' + rgb.g.toString() + ',' + rgb.b.toString() + ')');
+
+    // keep all image properties
 
     return rgb;
 }

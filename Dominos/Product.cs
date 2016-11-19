@@ -15,5 +15,8 @@ namespace Dominos
         public string LinkedItem { get; set; }
         public Array Legends { get; set; }
         public bool HalfnHalfEnabled { get; set; }
+
+        public string PizzaData { get; set; }
     }
+   
 }
