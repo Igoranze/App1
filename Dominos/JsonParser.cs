@@ -80,9 +80,9 @@ namespace Dominos
                         client.DownloadFile(dominosDomain + pr.Image, localFilename);
                     }
 
-                if (((Dictionary<string, object>)product).ContainsValue("Descriptioin") == true) {
-                    pr.Description = product["Description"];
-                }
+                    if (((Dictionary<string, object>)product).ContainsKey("Description") == true) {
+                        pr.Description = product["Description"];
+                    }
                     
                     pr.HalfnHalfEnabled = product["HalfnHalfEnabled"];
                     //pr.Price = product["Price"];
