@@ -11,7 +11,6 @@ $('.render').on('click', function () {
 })
 
 
-
 /*
 * Logic which compares the me image to all others should be here
 */
@@ -57,17 +56,19 @@ function getAverageRGB(imgEl) {
         count = 0;
 
     if (!context) {
+        console.log('NO CONTEXT!!!');
         return defRGB;
     }
 
     height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
     width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
-
+    
     context.drawImage(imgEl, 0, 0);
 
     try {
         data = context.getImageData(0, 0, width, height);
-    } catch(e) {
+    } catch (e) {
+        console.log('ERROR:' + e);
         return defRGB;
     }
 
