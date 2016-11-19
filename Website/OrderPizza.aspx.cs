@@ -35,11 +35,53 @@ public partial class Default2 : System.Web.UI.Page
             repProducts.DataBind();
 
         }
-        //Label lblEm = this.FindControl("lblEmotie") as Label;
 
-        //lblEm.Text = DoeIets();
-        lblEmotie.Text = "Test123";
+        lblEmotie.Text = DoeIets();
 
+        Image1.Attributes["src"] = loadImageFromMood();
+            
+
+
+    }
+
+    private string loadImageFromMood()
+    {
+        string mood = DoeIets();
+
+        if (mood.Equals("anger"))
+        {
+            return "Images/redbull.png";
+        }
+        if (mood.Equals("contempt"))
+        {
+            return "Images/water.png";
+        }
+        if (mood.Equals("disgust"))
+        {
+            return "Images/amstel.png";
+        }
+        if (mood.Equals("fear"))
+        {
+            return "Images/colalight.png";
+        }
+        if (mood.Equals("neutral"))
+        {
+            return "Images/fanta.png";
+        }
+        if (mood.Equals("sadness"))
+        {
+            return "Images/nesta.png";
+        }
+        if (mood.Equals("surprise"))
+        {
+            return "Images/sprite.png";
+        }
+
+        if (mood.Equals("happiness"))
+        {
+            return "Images/cola.png";
+        }
+        return "Images/cola.png";
 
     }
 
