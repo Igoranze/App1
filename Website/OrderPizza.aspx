@@ -67,7 +67,7 @@
                         <h2 class="equal">=</h2>
                     </div>
                      <div class="col-sm-4">
-                         <asp:Label ID="lblEmotie" runat="server" Text="Label"></asp:Label>
+                          <h2 class="equal"><asp:Label ID="lblEmotie" runat="server" Text="Label"></asp:Label></h2>
                      </div>
                     </div>
 
