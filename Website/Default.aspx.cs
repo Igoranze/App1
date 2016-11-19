@@ -11,9 +11,9 @@ public partial class Default : System.Web.UI.Page
 
         //Dominos
         JsonParser aaa = new JsonParser("https://hackathon-menu.dominos.cloud/Rest/nl/menus/30544/en");
-        string bbb = aaa.getJsonData();
+        List<Product> products = aaa.getJsonData();
         //Dominos
-        List<Product> products = Products.GetProducts(productsJson);
+        //List<Product> products = Products.GetProducts(productsJson);
 
         //Populate Repeater        
         repProducts.DataSource = products;
