@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Page 1</title>
     <link rel="stylesheet" href="css/dominos.css" />
+    <link rel="stylesheet" href="css/CustomCss.css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap --> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -16,8 +17,8 @@
 <h1>Select Pizza</h1>
     <form id="form1" runat="server">
 
-    <a class="render" href="#">Show me the top 3 pizzas that matches my photo color of today</a><br/>
-    <img class="added" alt="ORIGINAL" src="me.jpg" />
+    <button>Show me the top 3 pizzas that matches my photo color of today</button><br/>
+    <img class="added" width="150" height="150" alt="ORIGINAL" src="Images/persoon.jpg" />
 
     <div class="container">
     
