@@ -17,6 +17,7 @@ namespace Dominos
         public bool HalfnHalfEnabled { get; set; }
 
         public string PizzaData { get; set; }
+        public string Code { get; set; }
     }
    
 }
