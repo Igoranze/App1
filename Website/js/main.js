@@ -33,7 +33,7 @@ function compareFotos(allPizzas) {
     function compare(a, b) {
         if (a.dist < b.dist)
             return -1;
-        //if (a.dist > b.dist)
+        if (a.dist > b.dist)
             return 1;
         return 0;
     }
