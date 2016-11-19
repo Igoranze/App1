@@ -25,6 +25,8 @@ $('.render').on('click', function () {
         if (counter === 1) {
             $('#hfSelectedPizza').val(index);
         }
+
+    
         
 
 
