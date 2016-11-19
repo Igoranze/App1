@@ -7,5 +7,11 @@
         android:id="@+id/MyButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/GetPizza" />
+        android:text="@string/Hello" />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAsLabel" />
 </LinearLayout>
