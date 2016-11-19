@@ -8,6 +8,7 @@ using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 public partial class Pages_Master_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
@@ -30,12 +31,47 @@ public partial class Pages_Master_Default : System.Web.UI.Page
     protected void btnUploadClick(object sender, EventArgs e)
     {
         HttpPostedFile file = Request.Files["myFile"];
-
+        
         //check file was submitted
         if (file != null && file.ContentLength > 0)
         {
-            string fname = Path.GetFileName(file.FileName);
-            file.SaveAs(Server.MapPath(Path.Combine("~/App_Data/", fname)));
+            byte[] imageArray = readFully(file.InputStream);
+
+            string url = "https://api.projectoxford.ai/emotion/v1.0/recognize";
+            string json = "{\"url\": \"http://il6.picdn.net/shutterstock/videos/4386263/thumb/1.jpg\" }";
+            string apiKey = "b733deea30274a7faf28982f4829ba9a";
+
+            string result = "";
+            using (var client = new System.Net.WebClient())
+            {
+                //client.Headers[System.Net.HttpRequestHeader.ContentType] = "application/json";
+                client.Headers[System.Net.HttpRequestHeader.ContentType] = "application/octet-stream";
+                client.Headers["Ocp-Apim-Subscription-Key"] = apiKey;
+                //result = client.UploadString(url, "POST", json);
+                var byteArray = client.UploadData(url, imageArray);
+
+                using (var streamReader = new StreamReader(new MemoryStream(byteArray)))
+                    result = streamReader.ReadToEnd();    
+
+            }
+
+            Scores scores = new Scores(result);
+            Console.WriteLine(scores.getHighestSCore());
+        }
+    }
+
+    public byte[] readFully(Stream input)
+    {
+        byte[] buffer = new byte[input.Length];
+        //byte[] buffer = new byte[16 * 1024];
+        using (MemoryStream ms = new MemoryStream())
+        {
+            int read;
+            while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+            {
+                ms.Write(buffer, 0, read);
+            }
+            return ms.ToArray();
         }
     }
 
