@@ -45,7 +45,7 @@
 
                     <div class="col-xs-2"><asp:Label ID="Label12" runat="server" Text='Op basis van je gesteldheid raden we je dit aan bij de bestelling:' /></div>
 
-                    <div class="col-xs-2">
+                    <div class="col-xs-2" style="display:none">
                         <div id="caption<%# Container.ItemIndex + 1 %>"></div> 
 
                         <img src="<%# DataBinder.Eval(Container.DataItem,"ImageName")%>" alt="<%# DataBinder.Eval(Container.DataItem,"Name")%>" class="img-responsive" />
