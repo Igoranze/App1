@@ -18,6 +18,5 @@ public partial class Default : System.Web.UI.Page
         //Populate Repeater        
         repProducts.DataSource = products;
         repProducts.DataBind();
-        
     }
 }

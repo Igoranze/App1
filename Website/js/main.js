@@ -7,7 +7,24 @@ $('.render').on('click', function () {
     });
     sortedDistanceArray = compareFotos(pizzas);
     console.log(pizzas); // returns array with arrays for every image with RGB values & title.
-    console.log(sortedDistanceArray);
+    console.log('sortedDistanceArray:' + sortedDistanceArray);
+    var counter = 0;
+    for (var i = 1; i < 4; i++) {
+        counter++;
+        // get top three from sorted pizza array
+        var index = sortedDistanceArray[i].pizza;
+        console.log(index);
+        // show top three
+        var obj = pizzas[index];
+        $("#caption" + index).html('Choise' + counter);
+        $("#caption" + index).addClass('captionSelected');
+        console.log(obj);
+        $('img[alt="' + obj.title + '"]').addClass('selectedPizza');
+        //$(obj).addClass('selectedPizza');
+        $('hfSelectedPizza').val(JSON.stringify(obj));
+
+
+    }
 })
 
 
