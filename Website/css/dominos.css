@@ -3,3 +3,13 @@
     background-color:ghostwhite; 
     border-collapse:collapse; 
 }
+.selectedPizza {
+    border-top: 33px solid Lime!important;
+}
+.captionSelected {
+    width:100%;
+    position:absolute;
+    color:yellow;
+    font-weight:bold;
+    font-size:x-large;
+}

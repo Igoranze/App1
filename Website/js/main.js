@@ -7,7 +7,31 @@ $('.render').on('click', function () {
     });
     sortedDistanceArray = compareFotos(pizzas);
     console.log(pizzas); // returns array with arrays for every image with RGB values & title.
-    console.log(sortedDistanceArray);
+    console.log('sortedDistanceArray:' + sortedDistanceArray);
+    var counter = 0;
+    for (var i = 1; i < 4; i++) {
+        counter++;
+        // get top three from sorted pizza array
+        var index = sortedDistanceArray[i].pizza;
+        console.log(index);
+        // show top three
+        var obj = pizzas[index];
+        $("#caption" + index).html('Choise' + counter);
+        $("#caption" + index).addClass('captionSelected');
+        console.log(obj);
+        $('img[alt="' + obj.title + '"]').addClass('selectedPizza');
+        //$(obj).addClass('selectedPizza');
+        
+        if (counter === 1) {
+            //alert($('#hfSelectedPizza').val());
+            $('#hfSelectedPizza').val(index);
+            //$('#hfPizzaData' + index).val(JSON.stringify(obj));
+            //alert($('#hfSelectedPizza').val());
+        }
+        
+
+
+    }
 })
 
 
@@ -63,6 +87,7 @@ function getAverageRGB(imgEl) {
     height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
     width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
     
+
     context.drawImage(imgEl, 0, 0);
 
     try {
@@ -85,6 +110,8 @@ function getAverageRGB(imgEl) {
     rgb.b = ~~(rgb.b/count);
     console.log('r:' + rgb.r + ' g:' + rgb.g + ' b:' + rgb.b );
     $(imgEl).css('border', '33px solid rgb(' + rgb.r.toString() + ',' + rgb.g.toString() + ',' + rgb.b.toString() + ')');
+
+    // keep all image properties
 
     return rgb;
 }

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using System.Web;
 using System.Net;
 using System.Web.Script.Serialization;
 
@@ -7,7 +9,8 @@ namespace Dominos
     public class JsonParser
     {
         private string url;
-
+        private string websiteRootFolder = HttpContext.Current.Server.MapPath("~");
+        private string dominosDomain = "https://bestellen.dominos.nl/";
         public JsonParser(string url)
         {
             this.url = url;
@@ -40,11 +43,23 @@ namespace Dominos
                             //_________
                             // Products
                             var products = submenu["Products"];
+
+
+                            //Dominos.Products.GetProducts(products);
+
                             foreach (var product in products)
                             {
                                 Product pr = new Product();
                                 pr.Name = product["Name"];
                                 pr.Image = product["Image"];
+                                pr.ImageName = pr.Name + ".png";
+
+                                string localFilename = websiteRootFolder + pr.ImageName;
+                                using (WebClient client = new WebClient())
+                                {
+                                    client.DownloadFile(dominosDomain + pr.Image, localFilename);
+                                }
+
                                 pr.Description = product["Description"];
                                 pr.HalfnHalfEnabled = product["HalfnHalfEnabled"];
                                 //pr.Price = product["Price"];
@@ -52,6 +67,10 @@ namespace Dominos
                                 //pr.Legends = product["Legends"];
                                 //pr.LinkedItem = product["LinkedItem"];
                                 pr.ComponentStatus = product["ComponentStatus"];
+
+                                string productData = new JavaScriptSerializer().Serialize(product);
+                                pr.PizzaData = productData;
+
                                 listOfProducts.Add(pr);
                             }
                             result = listOfProducts;
