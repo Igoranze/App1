@@ -39,6 +39,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px black;
+    cursor: pointer;
 }
  .added{
  background-color: #007AAF;
