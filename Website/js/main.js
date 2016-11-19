@@ -9,7 +9,8 @@ $('.render').on('click', function () {
     console.log(pizzas); // returns array with arrays for every image with RGB values & title.
     console.log('sortedDistanceArray:' + sortedDistanceArray);
     var counter = 0;
-    for (var i = 1; i < 4; i++) {
+
+    for (var i = 0; i < 3; i++) {
         counter++;
         // get top three from sorted pizza array
         var index = sortedDistanceArray[i].pizza;
@@ -28,8 +29,6 @@ $('.render').on('click', function () {
             //$('#hfPizzaData' + index).val(JSON.stringify(obj));
             //alert($('#hfSelectedPizza').val());
         }
-        
-
 
     }
 })
