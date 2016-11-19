@@ -7,7 +7,6 @@ namespace Dominos
     public class JsonParser
     {
         private string url;
-        private List<Product> productList;
 
         public JsonParser(string url)
         {
